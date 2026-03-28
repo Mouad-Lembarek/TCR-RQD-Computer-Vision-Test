@@ -1,0 +1,11 @@
+# Streamlit UI
+streamlit>=1.40.0
+
+# colab.py pipeline (TCR/RQD)
+# Pin numpy<2 so SciPy / numba / conda stacks stay compatible; OpenCV 4.9 matches numpy 1.x.
+numpy>=1.24,<2
+scipy>=1.10
+opencv-python-headless>=4.8,<4.11
+
+# React web API (run: uvicorn api.server:app --reload --host 127.0.0.1 --port 8000)
+-r api/requirements.txt

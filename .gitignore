@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.eggs/
+
+# Node / frontend
+web/node_modules/
+web/dist/
+web/.vite/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug outputs from pipeline (optional local artifacts)
+debug_*.jpg
+debug_*.jpeg
+debug_*.png
