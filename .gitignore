@@ -24,6 +24,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Project brief (keep local only; not in repo)
+AI_Project_Brief_TCR_RQD_Core_Images.docx
+
 # Debug outputs from pipeline (optional local artifacts)
 debug_*.jpg
 debug_*.jpeg
